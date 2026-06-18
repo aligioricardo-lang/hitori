@@ -24,9 +24,9 @@ const botStartTime = Date.now();
 const groupMetadataTimers = {};
 
 /*
-	* Create By Naze
-	* Follow https://github.com/nazedev
-	* Whatsapp : https://whatsapp.com/channel/0029VaWOkNm7DAWtkvkJBK43
+	* Create By Algy Dev
+	* Follow https://github.com/aligioricardo-lang
+	* Whatsapp : https://whatsapp.com/channel/0029VbBlClKGJP8OawXsyX00
 */
 
 const reloadHandler = async () => {
@@ -172,11 +172,11 @@ async function GroupParticipantsUpdate(naze, update, store) {
 						mentions: [jid, author].filter(Boolean),
 						contextInfo: {
 							forwardingScore: 1,
-							isForwarded: true,
+							isForwarded: false,
 							forwardedNewsletterMessageInfo: {
 								newsletterJid: my.ch,
 								serverMessageId: null,
-								newsletterName: 'Join For More Info'
+								newsletterName: 'Vb Channel'
 							}
 						}
 					}, { ephemeralExpiration: metadata?.ephemeralDuration || store?.messages[id]?.array?.slice(-1)[0]?.metadata?.ephemeralDuration || 0 });
