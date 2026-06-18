@@ -6,19 +6,19 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 
 /*
-	* Create By Naze
-	* Follow https://github.com/nazedev
-	* Whatsapp : https://whatsapp.com/channel/0029VaWOkNm7DAWtkvkJBK43
+	* Create By Algy Dev
+	* Follow https://github.com/aligioricardo-lang
+	* Whatsapp : https://whatsapp.com/channel/0029VbBlClKGJP8OawXsyX00
 */
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ["6282113821188"] // ['628','628'] 2 owner atau lebih
-global.author = 'Nazedev'
-global.botname = 'Hitori Bot'
+global.owner = ["258857575209"] // ['628','628'] 2 owner atau lebih
+global.author = 'Algy Dev'
+global.botname = 'Algy Xz1'
 global.packname = 'Bot WhatsApp'
-global.timezone = 'Asia/Jakarta' // Ganti pakai command .settimezone
-global.locale = 'en' // Ganti pakai command .setlocale
+global.timezone = 'Mozambique/Maputo' // Ganti pakai command .settimezone
+global.locale = 'pt' // Ganti pakai command .setlocale
 global.listprefix = ["+","!","."]
 global.defaultAdminKey = crypto.randomBytes(5).toString("hex");
 
@@ -37,10 +37,10 @@ global.fake = {
 }
 
 global.my = {
-	yt: "https://youtube.com/c/Nazedev",
-	gh: "https://github.com/nazedev",
-	gc: "https://chat.whatsapp.com/EqMTCcxdCZgHUJNl5KooCr",
-	ch: "120363250409960161@newsletter"
+	yt: "",
+	gh: "https://github.com/aligioricardo-lang",
+	gc: "https://chat.whatsapp.com/LthgoMAPNn10LTGofKKO6B",
+	ch: "https://whatsapp.com/channel/0029VbBlClKGJP8OawXsyX00"
 }
 
 global.limit = {
