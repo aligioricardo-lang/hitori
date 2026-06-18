@@ -276,7 +276,7 @@ This file is responsible for:
 License: [MIT](https://choosealicense.com/licenses/mit/)
 
 #### Support Me
-- [WhatsApp](https://wa.me.258857575209)
+- [WhatsApp](https://wa.me/258857575209)
 
 ## Contributor
 
