@@ -55,7 +55,7 @@ pkg install git
 pkg install nodejs
 pkg install ffmpeg
 pkg install imagemagick
-git clone https://github.com/nazedev/hitori
+git clone https://github.com/aligioricardo-lang/hitori.git
 cd hitori
 npm install
 ```
@@ -113,7 +113,7 @@ To use all features properly, you **must provide your own API key**.
 
 The API key is configured in:
 
-📁 **[settings.js](https://github.com/nazedev/hitori/blob/master/settings.js)**  
+📁 **[settings.js](https://github.com/aligioricardo-lang/hitori/blob/master/settings.js)**  
 
 Example configuration:
 
@@ -134,19 +134,19 @@ Make sure you register and obtain a valid API key from the official website befo
 
 All main configurations are located in:
 
-📁 **[settings.js](https://github.com/nazedev/hitori/blob/master/settings.js)**
+📁 **[settings.js](https://github.com/aligioricardo-lang/hitori/blob/master/settings.js)**
 
 ### Editable Settings
 
 #### Owner Number
 ```js
-global.owner = ['628xxxxxxxxxx']
+global.owner = ['258xxxxxxxxxx']
 ```
 
 #### Bot Identity
 ```js
-global.botname = 'Hitori Bot'
-global.author = 'Nazedev'
+global.botname = 'Algy Xz1'
+global.author = 'Algy Dev'
 ```
 
 #### Command Prefix
@@ -163,10 +163,10 @@ global.money.free = 10000
 #### Pairing Code / Bot Number
 ```js
 global.pairing_code = true
-global.number_bot = '628xxxxxxxxxx'
+global.number_bot = '258xxxxxxxxxx'
 ```
 
-> Any change in [settings.js](https://github.com/nazedev/hitori/blob/master/settings.js) will be **auto-reloaded** without restarting the bot.
+> Any change in [settings.js](https://github.com/aligioricardo-lang/hitori/blob/master/settings.js) will be **auto-reloaded** without restarting the bot.
 
 ---
 
@@ -174,13 +174,13 @@ global.number_bot = '628xxxxxxxxxx'
 
 All bot features are implemented in:
 
-📁 **[naze.js](https://github.com/nazedev/hitori/blob/master/naze.js)**
+📁 **[naze.js](https://github.com/aligioricardo-lang/hitori/blob/master/naze.js)**
 
-Look for the **[switch (command)](https://github.com/nazedev/hitori/blob/61052a01ea8e8975a99f0db7f5d40bad5ee39a5b/naze.js#L742)** section.
+Look for the **[switch (command)](https://github.com/aligioricardo-lang/hitori/blob/61052a01ea8e8975a99f0db7f5d40bad5ee39a5b/naze.js#L742)** section.
 
 ### Where to Add New Features
 
-Add or edit commands inside the [switch (command)](https://github.com/nazedev/hitori/blob/61052a01ea8e8975a99f0db7f5d40bad5ee39a5b/naze.js#L742) block.
+Add or edit commands inside the [switch (command)](https://github.com/aligioricardo-lang/hitori/blob/61052a01ea8e8975a99f0db7f5d40bad5ee39a5b/naze.js#L742) block.
 
 ### Example: Adding a New Command
 
@@ -202,11 +202,11 @@ Guidelines:
 
 To understand the WhatsApp connection flow and event handling, see:
 
-📁 **[index.js](https://github.com/nazedev/hitori/blob/master/index.js)**
+📁 **[index.js](https://github.com/aligioricardo-lang/hitori/blob/master/index.js)**
 This file is responsible for:
 - Initializing Baileys connection
 - Handling WhatsApp events
-- Loading [settings.js](https://github.com/nazedev/hitori/blob/master/settings.js)
+- Loading [settings.js](https://github.com/aligioricardo-lang/hitori/blob/master/settings.js)
 - Dispatching messages to [naze.js](https://github.com/nazedev/hitori/blob/master/naze.js)
 
 ⚠️ **Editing [index.js](https://github.com/nazedev/hitori/blob/master/index.js) is not recommended unless you fully understand the bot flow.**
@@ -257,7 +257,7 @@ This file is responsible for:
 ```
 ---
 #### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nazedev/hitori)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aligioricardo-lang/hitori)
 
 #### Heroku Buildpack
 | Build Pack | LINK |
@@ -280,12 +280,10 @@ License: [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Contributor
 
-- [NazeDev](https://github.com/nazedev) (Pembuat)
-- [Zaynn](https://github.com/ZaynRcK) (Penyedia Layanan API)
-- [Dani](https://github.com/nazedev) (Penyumbang Code)
+- [NazeDev](https://github.com/aligioricardo-lang) (Pembuat)
 
 ## Thanks to
 
 | [![Nazedev](https://github.com/nazedev.png?size=100)](https://github.com/nazedev) | [![Zaynn](https://github.com/ZaynRcK.png?size=100)](https://github.com/ZaynRcK) | [![Dani](https://github.com/nazedev.png?size=100)](https://github.com/nazedev) | [![WhiskeySockets](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) |
 | --- | --- | --- | --- |
-| [NazeDev](https://github.com/nazedev) | [Zaynn](https://github.com/ZaynRcK) | [Dani](https://github.com/dani) | [WhiskeySockets](https://github.com/WhiskeySockets) |
+| [NazeDev](https://github.com/aligioricardo-lang) | [Zaynn](https://github.com/ZaynRcK) | [Dani](https://github.com/dani) | [WhiskeySockets](https://github.com/WhiskeySockets) |
