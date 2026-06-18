@@ -13,7 +13,7 @@
 This script is created by [Nazedev](https://github.com/nazedev) using Node.js and the [WhiskeySocket/Baileys](https://github.com/WhiskeySockets/Baileys) library. The script is currently in the development phase (BETA), so there may still be some errors that can be ignored. If errors persist even after debugging, please contact the owner for assistance. ~ By Naze
 
 #### Join Group
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EApQZ65s9wF1UG5nD6Pinm?mode=gi_t) 
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LthgoMAPNn10LTGofKKO6B) 
 
 ---
 ## 📦 Requirements
@@ -31,7 +31,7 @@ System dependencies (handled automatically by `install.sh`):
 ## 🚀 Installation
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/aligioricardo-lang/hitori.git
+git clone https://github.com/aligioricardo-lang/hitori
 cd hitori
 ```
 ---
@@ -55,7 +55,7 @@ pkg install git
 pkg install nodejs
 pkg install ffmpeg
 pkg install imagemagick
-git clone https://github.com/aligioricardo-lang/hitori.git
+git clone https://github.com/aligioricardo-lang/hitori
 cd hitori
 npm install
 ```
@@ -174,13 +174,13 @@ global.number_bot = '258xxxxxxxxxx'
 
 All bot features are implemented in:
 
-📁 **[naze.js](https://github.com/aligioricardo-lang/hitori/blob/master/naze.js)**
+📁 **[naze.js](https://github.com/nazedev/hitori/blob/master/naze.js)**
 
-Look for the **[switch (command)](https://github.com/aligioricardo-lang/hitori/blob/61052a01ea8e8975a99f0db7f5d40bad5ee39a5b/naze.js#L742)** section.
+Look for the **[switch (command)](https://github.com/nazedev/hitori/blob/61052a01ea8e8975a99f0db7f5d40bad5ee39a5b/naze.js#L742)** section.
 
 ### Where to Add New Features
 
-Add or edit commands inside the [switch (command)](https://github.com/aligioricardo-lang/hitori/blob/61052a01ea8e8975a99f0db7f5d40bad5ee39a5b/naze.js#L742) block.
+Add or edit commands inside the [switch (command)](https://github.com/nazedev/hitori/blob/61052a01ea8e8975a99f0db7f5d40bad5ee39a5b/naze.js#L742) block.
 
 ### Example: Adding a New Command
 
@@ -202,11 +202,11 @@ Guidelines:
 
 To understand the WhatsApp connection flow and event handling, see:
 
-📁 **[index.js](https://github.com/aligioricardo-lang/hitori/blob/master/index.js)**
+📁 **[index.js](https://github.com/nazedev/hitori/blob/master/index.js)**
 This file is responsible for:
 - Initializing Baileys connection
 - Handling WhatsApp events
-- Loading [settings.js](https://github.com/aligioricardo-lang/hitori/blob/master/settings.js)
+- Loading [settings.js](https://github.com/nazedev/hitori/blob/master/settings.js)
 - Dispatching messages to [naze.js](https://github.com/nazedev/hitori/blob/master/naze.js)
 
 ⚠️ **Editing [index.js](https://github.com/nazedev/hitori/blob/master/index.js) is not recommended unless you fully understand the bot flow.**
@@ -257,7 +257,7 @@ This file is responsible for:
 ```
 ---
 #### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aligioricardo-lang/hitori)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nazedev/hitori)
 
 #### Heroku Buildpack
 | Build Pack | LINK |
@@ -276,14 +276,9 @@ This file is responsible for:
 License: [MIT](https://choosealicense.com/licenses/mit/)
 
 #### Support Me
-- [Saweria](https://saweria.co/naze)
+- [WhatsApp](https://wa.me.258857575209)
 
 ## Contributor
 
-- [NazeDev](https://github.com/aligioricardo-lang) (Pembuat)
-
-## Thanks to
-
-| [![Nazedev](https://github.com/nazedev.png?size=100)](https://github.com/nazedev) | [![Zaynn](https://github.com/ZaynRcK.png?size=100)](https://github.com/ZaynRcK) | [![Dani](https://github.com/nazedev.png?size=100)](https://github.com/nazedev) | [![WhiskeySockets](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) |
-| --- | --- | --- | --- |
-| [NazeDev](https://github.com/aligioricardo-lang) | [Zaynn](https://github.com/ZaynRcK) | [Dani](https://github.com/dani) | [WhiskeySockets](https://github.com/WhiskeySockets) |
+- [Algy Dev](https://github.com/algyricardo-lang) (program executor)
+|
