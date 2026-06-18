@@ -280,5 +280,5 @@ License: [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Contributor
 
-- [Algy Dev](https://github.com/algyricardo-lang) (program executor)
+- [Algy Dev](https://github.com/algioricardo-lang) (program executor)
 |
