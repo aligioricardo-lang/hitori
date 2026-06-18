@@ -43,9 +43,9 @@ const settingsPath = path.join(__dirname, 'settings.js');
 let canvasModule = null;
 
 /*
-	* Create By Naze
-	* Follow https://github.com/nazedev
-	* Whatsapp : https://whatsapp.com/channel/0029VaWOkNm7DAWtkvkJBK43
+	* Create By Algy Dev
+	* Follow https://github.com/aligioricardo-lang
+	* Whatsapp : https://whatsapp.com/channel/0029VbBlClKGJP8OawXsyX00
 */
 
 try {
@@ -1531,11 +1531,11 @@ const naze = async (naze, m, msg, store) => {
 					sourceUrl: global.my.yt,
 					contextInfo: {
 						forwardingScore: 10,
-						isForwarded: true,
+						isForwarded: false,
 						forwardedNewsletterMessageInfo: {
 							newsletterJid: global.my.ch,
 							serverMessageId: null,
-							newsletterName: 'Join For More Info'
+							newsletterName: 'Vb chamnel'
 						}
 					}
 				})
@@ -4600,11 +4600,11 @@ Select Bot Settings:
 					mentions: [m.sender, '0@s.whatsapp.net', ownerNumber[0] + '@s.whatsapp.net'],
 					contextInfo: {
 						forwardingScore: 1,
-						isForwarded: true,
+						isForwarded: false,
 						forwardedNewsletterMessageInfo: {
 							newsletterJid: my.ch,
 							serverMessageId: null,
-							newsletterName: 'Join For More Info'
+							newsletterName: 'Vb Channel'
 						}
 					}
 				})
